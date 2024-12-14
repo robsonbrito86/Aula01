@@ -44,7 +44,7 @@ class ContaCorrente(ContaBancaria):
             else:
                 super().sacar(valor)
 
-pop = ContaPoupanca('Davi', 1000)
+pop = ContaPoupanca('Robson', 1000)
 pop.render_juros()
 pop.get_saldo()
 
